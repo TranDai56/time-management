@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Quản lý thời gian cá nhân</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Tổng quan</string>
+    <string name="nav_tasks">Công việc</string>
+    <string name="nav_calendar">Lịch trình</string>
+    <string name="nav_categories">Danh mục</string>
+    <string name="nav_reminders">Nhắc nhở</string>
+    <string name="nav_progress">Tiến độ</string>
+
+    <!-- Actions -->
+    <string name="action_add">Thêm mới</string>
+    <string name="action_edit">Chỉnh sửa</string>
+    <string name="action_delete">Xóa</string>
+    <string name="action_save">Lưu</string>
+    <string name="action_cancel">Hủy</string>
+    <string name="action_confirm">Xác nhận</string>
+    <string name="action_complete">Hoàn thành</string>
+    <string name="action_details">Chi tiết</string>
+    <string name="action_retry">Thử lại</string>
+    <string name="action_server_config">Cấu hình Server</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_total_tasks">Tổng công việc</string>
+    <string name="dashboard_completed_tasks">Đã hoàn thành</string>
+    <string name="dashboard_incomplete_tasks">Chưa hoàn thành</string>
+    <string name="dashboard_progress">Tiến độ tổng thể</string>
+    <string name="dashboard_today_tasks">Công việc hôm nay</string>
+    <string name="dashboard_upcoming_tasks">Công việc sắp tới</string>
+    <string name="dashboard_quick_add">+ Thêm công việc</string>
+    <string name="dashboard_see_all">Xem tất cả</string>
+
+    <!-- Tasks -->
+    <string name="task_title_hint">Tiêu đề công việc</string>
+    <string name="task_desc_hint">Mô tả chi tiết (tùy chọn)</string>
+    <string name="task_select_category">Chọn danh mục</string>
+    <string name="task_select_date">Chọn ngày</string>
+    <string name="task_select_time">Chọn giờ</string>
+    <string name="task_filter_all">Tất cả</string>
+    <string name="task_filter_today">Hôm nay</string>
+    <string name="task_filter_pending">Chưa xong</string>
+    <string name="task_filter_completed">Đã xong</string>
+    <string name="task_add_title">Thêm công việc mới</string>
+    <string name="task_edit_title">Cập nhật công việc</string>
+    <string name="task_delete_confirm">Bạn có chắc chắn muốn xóa công việc này không?</string>
+    <string name="task_empty">Chưa có công việc nào</string>
+    <string name="task_empty_desc">Hãy bấm nút + bên dưới để tạo công việc đầu tiên của bạn</string>
+
+    <!-- Calendar -->
+    <string name="calendar_title">Lịch công việc</string>
+    <string name="calendar_tasks_on_day">Công việc trong ngày %1$s</string>
+    <string name="calendar_no_tasks">Không có lịch trình nào vào ngày này</string>
+    <string name="calendar_add_schedule">Lên lịch công việc</string>
+
+    <!-- Categories -->
+    <string name="category_name_hint">Tên danh mục</string>
+    <string name="category_desc_hint">Mô tả danh mục (tùy chọn)</string>
+    <string name="category_add_title">Thêm danh mục mới</string>
+    <string name="category_edit_title">Sửa danh mục</string>
+    <string name="category_delete_confirm">Bạn có chắc chắn muốn xóa danh mục này không? Các công việc liên kết có thể bị ảnh hưởng.</string>
+    <string name="category_empty">Chưa có danh mục nào</string>
+    <string name="category_manage">Quản lý danh mục</string>
+
+    <!-- Reminders -->
+    <string name="reminder_title">Danh sách nhắc nhở</string>
+    <string name="reminder_select_task">Chọn công việc nhắc nhở</string>
+    <string name="reminder_time_hint">Thời gian nhắc nhở</string>
+    <string name="reminder_enabled">Đang bật nhắc nhở</string>
+    <string name="reminder_disabled">Đã tắt</string>
+    <string name="reminder_add_title">Thêm nhắc nhở mới</string>
+    <string name="reminder_edit_title">Chỉnh sửa nhắc nhở</string>
+    <string name="reminder_cancel_title">Hủy thông báo này</string>
+    <string name="reminder_delete_confirm">Bạn có chắc chắn muốn xóa lời nhắc này?</string>
+    <string name="reminder_empty">Chưa có nhắc nhở nào</string>
+
+    <!-- Progress -->
+    <string name="progress_title">Thống kê &amp; Tiến độ</string>
+    <string name="progress_status_hint">Trạng thái (VD: Đang làm, Đang đợi...)</string>
+    <string name="progress_percentage_hint">Phần trăm hoàn thành (%):</string>
+    <string name="progress_update_title">Cập nhật tiến độ</string>
+    <string name="progress_empty">Chưa có dữ liệu tiến độ</string>
+
+    <!-- Common Messages -->
+    <string name="loading">Đang tải dữ liệu...</string>
+    <string name="error_network">Không thể kết nối đến máy chủ. Vui lòng kiểm tra địa chỉ BASE_URL và kết nối mạng.</string>
+    <string name="error_generic">Đã xảy ra lỗi: %1$s</string>
+    <string name="success_saved">Lưu thành công!</string>
+    <string name="success_deleted">Đã xóa thành công!</string>
+    <string name="server_url_hint">Nhập Base URL (VD: http://10.0.2.2:8080/)</string>
+    <string name="server_url_dialog_title">Cấu hình kết nối API Spring Boot</string>
+</resources>
+
